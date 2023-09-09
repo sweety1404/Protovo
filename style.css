@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@100&family=Source+Sans+3:wght@200&display=swap');
+
+body{
+    background-color: greenyellow;
+    margin: 0;
+    padding: 0;
+}
+.headerarea{
+    background: #054332 url("bg.png");
+    padding-bottom: 100px;
+}
+.menuarea{
+    background: rgba(182, 201, 174, 0.7);
+    padding:20px 0 20px 100px;
+
+}
+.menuarea i{
+    color: #014B40;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav-link{
+    text-align: center;
+    color:#014B40 !important;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.nav-item{
+    padding-left: 20px;
+
+}
+.serenity{
+    color:white;
+    margin: 50px 0 0 0;
+    padding-bottom: 140px;
+    
+}
+.bigtext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px !important;
+}
+.smalltext{
+    padding-left: 40px;
+}
+.serenity button{
+    background: #014B40;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+    
+}
+.serenity a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+.serenity i{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+.secondarea{
+    background-color: white;
+    text-align: left;
+    padding: 50px 0 100px 0;
+}
+.secondarea h5{
+    color: #014B40;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0 0px 80px;
+
+}
+/* .secondarea button{
+    
+} */
+.slidearea{
+    background-color: white;
+    margin: 0 60px 50px 60px;
+}
+
+.slidearea img{
+    border-radius: 10px;
+}
+.carousel-control-next-icon{
+    background:#FFF url('clarity_arrow-line.png') !important;
+    color:white !important;
+    border-radius: 50%;
+    margin-right:-150px;
+    opacity: 1 !important;
+}
+/* .carousel-control-prev-icon{
+    background:#FFF url('clarity_arrow-line.png') !important;
+    invert(50%);
+    color:white !important;
+    border-radius: 50%;
+    margin-right:-150px;
+    opacity: 1 !important;
+} */
+.carousel-indicators button{
+    width:30px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: #014B40 !important;
+    opacity: 1 !important;
+   margin-bottom: -1200px !important;
+}
+.carousel-indicators  .active{
+    background: #FFF !important;
+    
+}
+.box{
+    position: relative;
+}
+
+.details{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: rgba(255,255,255,0.5);
+    padding:10px 0;
+}
+.details p{
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+.details button{
+    border: solid white 1px;
+    border-radius: 10%;
+    padding: 5px 10px;   
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+.searcharea{
+    background: #054332 url("searcharea.png");
+}
+.search_3{
+    padding: 50px 0 50px 0;
+}
+.search_no2{
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.search_no3 i{
+    background-color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #014B40;
+}
+.search_no1 i{
+    background-color: #014B40;
+    border: solid 2px white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px; 
+    color: white;
+    margin-left: 140px;
+    text-align: right;
+}
+.colorarea{
+    background-color: white;
+    padding: 50px 0 100px 0;
+}
+.writtenarea{
+    padding-bottom: 40px;
+}
+.writtenarea p{
+    text-align: left;
+    margin-left: 100px;
+}
+.viewall{
+    /* background-color: red; */
+    text-align: right;
+    padding-right: 100px;
+}
+.viewall button{
+    text-align: right;
+    color: #014B40;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+    padding: 50px 0 50px 0;
+
+}
+.colorarea p{
+    color: #014B40;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.colorarea button{
+    color: #014B40;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+}
+.colorarrival{
+    margin: 0 60px 0 60px;
+}
+.colorarrival img{
+    border-radius: 10px;
+    margin: 0 20px 0 20px;
+}
+/* servicearea */
+.servicearea{
+    padding: 71px 0;
+    background-color: white;
+}
+.service{
+    background: #014B40 url('./modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png');
+    background-size: cover;
+    border-radius: 20px;
+    padding: 100px 0 60px 0;
+}
+.servicearea h2{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 44px;
+    letter-spacing: 0.3px;
+
+}
+.servicearea p{
+    font-family: Poppins;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: white;
+    /* padding-top: 20px; */
+
+
+}
+.servicearea ul{
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding-bottom: 150px;
+}
+.servicearea ul li a:link, .servicearea ul li a:visited{
+    color: white;
+    margin-right: 10px;
+}
+.servicearea i{
+    color: white;
+    margin-right: 10px;
+}
+/* footerarea */
+.footerarea{
+    /* background-color: yellow; */
+    background-color: #014B40;
+    padding: 50px;
+}
+.fourcolumn{
+    background-color: #014B40;
+    /* background-color: red; */
+    padding-left: 100px;
+}
+.fourcolumn p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.footerarea ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 10px 0 0 0;
+}
+.footerarea  li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+}
+.footerarea ul li{
+    margin: 20px 0;
+}
+
+.fourcolumn h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.fourcolumn form{
+    background-color: #1A5D53;
+    /* padding: 10px  ;  */
+    border-radius: 10px;
+    color: white;
+
+}
+.fourcolumn form i{
+    font-size: 30px;
+    text-align: center;
+    background-color: #014B40;
+    border-radius: 5px;
+    padding: 15px 10px 15px 0;
+   left: 10px;
+    margin: 20px 0 20px 0;
+
+}
+.fourcolumn form p{
+    font-size: 20px;
+
+}
+.contact-list{
+    color: white;
+}
+.rmenu{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+.rmenu i{
+    padding:20px;
+    background-color: #1A5D53;
+    color:white;
+    border-radius:50%;
+    font-size: 20px;
+}
+.rmenu p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.lowerarea{
+    color: white;
+    margin: 30px 100px;
+    background-color: #1A5D53;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.lowerarea i{
+    padding: 0 10px;
+    font-size: 25px;
+}
