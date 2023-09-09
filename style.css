@@ -86,6 +86,7 @@ body{
 
 .slidearea img{
     border-radius: 10px;
+    width: 100%;
 }
 .carousel-control-next-icon{
     background:#FFF url('clarity_arrow-line.png') !important;
@@ -208,6 +209,7 @@ body{
 .colorarrival img{
     border-radius: 10px;
     margin: 0 20px 0 20px;
+    width:100%;
 }
 /* servicearea */
 .servicearea{
@@ -341,4 +343,10 @@ body{
 .lowerarea i{
     padding: 0 10px;
     font-size: 25px;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    float: left;
 }
