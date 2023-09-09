@@ -249,6 +249,7 @@ body{
     font-family: 'Open Sans';
     font-size: 44px;
     letter-spacing: 0.3px;
+    font-weight: bold;
 
 }
 .servicearea p{
@@ -289,6 +290,7 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
+    /* font-family: Source Sans pro; */
 }
 .footerarea ul{
     list-style: none;
@@ -299,6 +301,8 @@ body{
     text-decoration: none;
     color: white;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important;
     padding: 10px 0 10px 0;
 }
 .footerarea ul li{
@@ -309,6 +313,8 @@ body{
     color: white;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600 !important;
+    /* font-style: outline !important; */
 }
 .fourcolumn form{
     background-color: #1A5D53;
@@ -365,13 +371,13 @@ body{
     padding: 0 10px;
     font-size: 25px;
 }
-<<<<<<< Updated upstream
+/* Updated upstream */
 .social ul{
     list-style: none;
 }
 .social ul li{
     float: left;
-=======
+}
 .plantseedsarea{
     background-color: white;
     text-align: left;
@@ -383,6 +389,4 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     padding: 0px 0 0px 100px;
-
->>>>>>> Stashed changes
 }
