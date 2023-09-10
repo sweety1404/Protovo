@@ -102,6 +102,13 @@ body{
     margin-right:-150px;
     opacity: 1 !important;
 }
+.carousel-control-prev-icon{
+    background:#FFF url('clarity_arrow-line.png') !important;
+    color:white !important;
+    border-radius: 50%;
+    margin-left:-150px;
+    opacity: 1 !important;
+}
 /* .carousel-control-prev-icon{
     background:#FFF url('clarity_arrow-line.png') !important;
     invert(50%);
@@ -285,7 +292,6 @@ body{
     background-color: white;
 }
 .service{
-    /* background: #014B40 url('./modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png'); */
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png');
     background-size: cover;
     border-radius: 20px;
