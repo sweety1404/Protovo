@@ -57,6 +57,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     margin-left: 40px;
+    border: none;
     
 }
 .serenity a{
@@ -113,13 +114,16 @@ body{
     width:30px !important;
     height: 10px !important;
     border-radius: 50%;
-    background: #014B40 !important;
+    background: #e6edec !important;
     opacity: 1 !important;
    margin-bottom: -1200px !important;
 }
 .carousel-indicators  .active{
-    background: #FFF !important;
+    background: #014B40 !important;
     
+}
+.carousel-indicators{
+    margin-bottom: -2rem;
 }
 .box{
     position: relative;
@@ -145,7 +149,7 @@ body{
     margin-top: 20px; 
     margin-left: 20px;
 }
-.searcharea{
+/* .searcharea{
     background: #054332 url("searcharea.png");
 }
 .search_3{
@@ -163,6 +167,18 @@ body{
     border-radius: 5px;
     color: #014B40;
 }
+.search_2 form{
+    border: none !important;
+    background-color: white;
+}
+.search_2 form ::placeholder{
+    border: none;
+    color: #014B40;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #FFF;
+
+}
 .search_no1 i{
     background-color: #014B40;
     border: solid 2px white;
@@ -172,7 +188,38 @@ body{
     color: white;
     margin-left: 140px;
     text-align: right;
+} */
+
+.searcharea{
+    padding:68px 0 ;
+    background-image: url('searcharea.png');
+    background-size: cover;
 }
+.searcharea i{
+    color: white;
+    border:solid 1px white;
+    border-radius: 10px;
+    padding:15px;
+    font-size: 30px;
+    text-align: right;
+}
+.searcharea p i{
+    color: #014B40;
+    background-color: white;
+}
+
+.searcharea input{
+   width: 992px;
+   height: 60px;
+   border-radius: 10px;
+   padding: 0px 0px 0 27px;
+   border: none;
+}
+.searcharea input::placeholder{
+    color:#54867E ;
+}
+
+
 .colorarea{
     background-color: white;
     padding: 50px 0 100px 0;
@@ -238,7 +285,8 @@ body{
     background-color: white;
 }
 .service{
-    background: #014B40 url('./modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png');
+    /* background: #014B40 url('./modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png'); */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png');
     background-size: cover;
     border-radius: 20px;
     padding: 100px 0 60px 0;
@@ -289,8 +337,7 @@ body{
 .fourcolumn p{
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
-    /* font-family: Source Sans pro; */
+    color: #99b7b2;
 }
 .footerarea ul{
     list-style: none;
@@ -299,7 +346,7 @@ body{
 }
 .footerarea  li a{
     text-decoration: none;
-    color: white;
+    color: #99b7b2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400 !important;
@@ -314,16 +361,34 @@ body{
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600 !important;
-    /* font-style: outline !important; */
 }
 .fourcolumn form{
     background-color: #1A5D53;
-    /* padding: 10px  ;  */
     border-radius: 10px;
+    padding: 10px 20px;
     color: white;
+    /* margin-left: -90px; */
+    
 
 }
+.fourcolumn form input{
+    background-color: #1A5D53;
+    border: none;
+    color: #99b7b2;
+    font-size: 20px;
+}
+.fourcolumn form ::placeholder{
+    color: white;
+}
 .fourcolumn form i{
+    background-color: #014B40;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 15px;
+
+}
+/* .fourcolumn form i{
     font-size: 30px;
     text-align: center;
     background-color: #014B40;
@@ -332,16 +397,16 @@ body{
    left: 10px;
     margin: 20px 0 20px 0;
 
-}
-.fourcolumn form p{
+} */
+/* .fourcolumn form p{
     font-size: 20px;
 
-}
+} */
 .contact-list{
     color: white;
 }
 .rmenu{
-    color: white;
+    color: #99b7b2;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding-top: 20px;
@@ -357,6 +422,7 @@ body{
 .rmenu p{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    color: white;
     margin: 0 !important;
     padding: 0 !important;
 }
